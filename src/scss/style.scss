@@ -1,0 +1,52 @@
+@import '../css/old-style.css';
+@import './variables';
+@import './custom-table';
+@import './mixins';
+@import './slider';
+@import './sale';
+
+.custom-from-control, .custom-btn {
+    color: #868686;
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5.5px 13px;
+    transition: all .3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+    color: #000;
+}
+
+.custom-btn-primary {
+    @include button-style($brand-primary);
+}
+
+.custom-btn-danger {
+    @include button-style($brand-danger);
+    border-radius: 3px;
+}
+
+.add-to-cart-btn {
+    background-color: #FFFFFF;
+    color: $brand-secondary;
+}
+
+.add-to-cart-btn:hover {
+    color: #19BECD;
+}
+
+.custom-btn-primary2 {
+    color: white;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+
+    &:hover, &:focus, &:active, &:hover,
+    &:active:focus, &:hover:disabled {
+    border-color: #b86d07;
+    background-color: #b86d07;
+    }
+}

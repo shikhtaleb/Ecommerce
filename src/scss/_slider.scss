@@ -1,0 +1,33 @@
+@import './variables';
+
+/* full line */
+.ui-slider {
+    margin: 25px 0 35px;
+    height: 2px;
+    background-color: #C5C5C5;
+
+    /* boxes */
+    .ui-slider-handle {
+        background-color: $brand-primary;
+        border: none;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+        top: -6px;
+    }
+
+    /* line */
+    .ui-slider-range {
+        border: 1px solid $brand-primary;
+        top: -1px;
+    }
+}
+
+// handle for tablets
+@media (max-width: 991.98px) {
+    .ui-slider .ui-slider-handle {
+        height: 20px;
+        width: 20px;
+        top: -10px;
+    }
+}

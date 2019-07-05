@@ -1,0 +1,21 @@
+{
+  "name": "Ecommerce",
+  "version": "1.0.0",
+  "description": "Ecommerce is a study project",
+  "main": "index.js",
+  "dependencies": {
+    "del": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "M. Shikh Taleb",
+  "license": "ISC"
+}
